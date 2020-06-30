@@ -1,11 +1,6 @@
-# YouTube Video: https://www.youtube.com/watch?v=4rgt7Od7-KM
-# Thanks to Al Swiegart and his excellent book:
-# Automating the Boring Stuff with Python for writing this module
-# and also for inspiration for pyautogui illustrative purposes.
-
 import pyautogui
 
-# Depending on your program, pyautogui can "go rogue". As a failsafe,
+# Depending on program, pyautogui can "go rogue". As a failsafe,
 # we may move the mouse to the upper left corner of the screen to
 # halt the execution of a "rogue" program by setting the following:
 pyautogui.FAILSAFE = True
